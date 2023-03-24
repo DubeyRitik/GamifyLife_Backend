@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", async (req, res, next) => {
   return res.status(200).json({
     title: "GamifyLife Backend",
-    message: "Backend for gamify life",
+    message: "Backend for gamify life project",
   });
 });
 
